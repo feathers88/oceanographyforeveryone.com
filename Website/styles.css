@@ -69,14 +69,14 @@ a:active {
 		
 #empower {
 	margin:0 auto;
-	width: 60%;
+	width: 100%;
 	min-width:550px;
 	text-align:center;
-	padding-top:304px;
 	line-height:150%;
 	margin-top:25px;
+	padding-top:250px;
 }
-		
+
 .btn-lg {
 	color:#F5E537;
 	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -273,4 +273,36 @@ a:active {
 #depot iframe {
 	margin: 0 auto;
 	display:block;
+}
+
+#depotText {
+	background-color:#C3CED0;		
+	width:100%;
+	float:left;
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align:center;
+	padding-right:150px;
+	padding-left:150px;
+	font-size:1.75em;
+}
+
+#depotText  a:link {
+	color:#0000FF;
+	font-weight:bold;
+}
+
+#depotText  a:visited {
+	color:#800080;
+	font-weight:bold;
+}
+
+#depotText  a:hover {
+	color:#0000FF;
+	font-weight:bold;
+}
+
+#depotText  a:active {
+	color:#FF0000;
+	font-weight:bold;
 }
