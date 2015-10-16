@@ -280,37 +280,13 @@ a:active {
 }
 
 #partners {
-	width:100%;
-	float:left;
 	color:#F5E537;	
-	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	background-color:#73B5E5;
-	margin:0 auto;
-	padding-left:10%;
+	text-align:center;
 }
 
-#partnersHeading {
-	float:left;
-	width:150px;
-}
-
-#partnersList {
-	float:left;
-	padding:20px;
-}
-
-#partnersList li {
-	font-weight:bold;		
-	list-style:none;
-	margin-top:1px;
-	height:100%;
-	float:left;	
-	font-size:2.0em;
-	padding-right:50px;
-}
 
 #depot {
-	width:100%;
 	background-color:#E7E4D0;
 	margin:auto;
 }
@@ -322,14 +298,9 @@ a:active {
 
 #depotText {
 	background-color:#C3CED0;		
-	width:100%;
-	float:left;
-	padding-top:50px;
-	padding-bottom:50px;
 	text-align:center;
-	padding-right:150px;
-	padding-left:150px;
 	font-size:1.75em;
+	padding: 15px 0 15px 0;
 }
 
 #depotText  a:link {
@@ -350,6 +321,10 @@ a:active {
 #depotText  a:active {
 	color:#FF0000;
 	font-weight:bold;
+}
+
+.partnerText {
+	padding:25px 0 25px 0;
 }
 
 
