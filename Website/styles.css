@@ -151,7 +151,7 @@ a:active {
 }
 
 .roundImage {
-		border-radius:15px;
+	border-radius:15px;
 }
 	
 .roundRect {
@@ -168,13 +168,9 @@ a:active {
 	background-color:#C3CED0;		
 }
 
-/*.project {
-	width:550px;
-	display: inline-block;
-	vertical-align: top;
-	text-align:left;
-	margin:50px;
-}*/
+.project {
+	
+}
 
 .project h3 {
 	font-weight:bold;
@@ -207,7 +203,6 @@ a:active {
 }
 
 .projectImage {
-	/*height:250px;*/
 	width:30%;
 	float:left;
 	margin-right:10px;
@@ -221,6 +216,10 @@ a:active {
 	.projectImage {
 		width: 100%
 	}
+}
+
+.projectText {
+	padding-bottom:50px;
 }
 
 #about {
