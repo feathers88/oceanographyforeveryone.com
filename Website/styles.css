@@ -66,7 +66,6 @@ a:active {
     background-position: center; 
 	background-color: white;
 	background-size: cover;
-
 }
 
 #title {
@@ -75,52 +74,6 @@ a:active {
 	background-color: transparent;
 }
 
-
-.jumbotron.vertical-center {
-  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
-}
-
-.vertical-center {
-  min-height: 100%;  /* Fallback for vh unit */
-  min-height: 100vh; /* You might also want to use
-                        'height' property instead.
-                        
-                        Note that for percentage values of
-                        'height' or 'min-height' properties,
-                        the 'height' of the parent element
-                        should be specified explicitly.
-  
-                        In this case the parent of '.vertical-center'
-                        is the <body> element */
-
-  /* Make it a flex container */
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; 
-  
-  /* Align the bootstrap's container vertically */
-    -webkit-box-align : center;
-  -webkit-align-items : center;
-       -moz-box-align : center;
-       -ms-flex-align : center;
-          align-items : center;
-  
-  /* In legacy web browsers such as Firefox 9
-     we need to specify the width of the flex container */
-  width: 100%;
-  
-  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
-     hence the bootstrap's container won't be aligned to the center anymore.
-  
-     Therefore, we should use the following declarations to get it centered again */
-         -webkit-box-pack : center;
-            -moz-box-pack : center;
-            -ms-flex-pack : center;
-  -webkit-justify-content : center;
-          justify-content : center;
-}
 
 
 #empower {
@@ -146,11 +99,41 @@ a:active {
 	padding-right:40px;
 }
 		
-#welcome {
-	max-width:980px;
+.welcome {
+	/*max-width:980px;*/
 	color:black;	
 	margin:0 auto;
 }
+
+.welcome h3 {
+	margin-top: 0;
+	font-weight:bold;
+	font-size:2em;
+}
+
+.welcome p {
+	font-size:1.5em;
+	padding-bottom:10px;
+}
+
+.welcomeBackground  {
+	background-image: url('images/roundrect.jpg');
+	background-repeat: no-repeat;
+    background-position: center; 
+	background-color: white;
+	background-size: cover;
+
+	border-radius:15px;
+    padding-bottom: 20%; 
+	background-position: 50% 50%;
+}	
+
+@media (min-width:992px) {
+	.welcomeBackground {
+	    padding-bottom: 560px; 
+	}
+} 
+
 		
 .welcomeContent  a:link {
 	color:#0000FF;
@@ -167,7 +150,7 @@ a:active {
 .welcomeContent  a:active {
 	color:#FF0000 ;
 }
-
+/*
 .welcomeContent {
 	padding-top:50px;
 	padding-bottom:50px;
@@ -180,15 +163,17 @@ a:active {
 	font-size:2em;
 }		
 		
-.welcomeContent p {
-	font-size:1.5em;
-	padding-bottom:10px;
+*/
+
+.roundImage {
+		border-radius:15px;
+		/*width: 100%;*/
 }
 	
 .roundRect {
 	float:left;
 	height:560px;
-	width:250px;
+	/*width:250px;*/
 	margin-top:65px;
 	border-radius:15px;
 	margin-right:15px;
@@ -361,4 +346,62 @@ a:active {
 #depotText  a:active {
 	color:#FF0000;
 	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+/*
+Vertical align jumbotron
+From http://jsfiddle.net/hashem/ut5sbqvz/
+
+*/
+.jumbotron.vertical-center {
+  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for vh unit */
+  min-height: 100vh; /* You might also want to use
+                        'height' property instead.
+                        
+                        Note that for percentage values of
+                        'height' or 'min-height' properties,
+                        the 'height' of the parent element
+                        should be specified explicitly.
+  
+                        In this case the parent of '.vertical-center'
+                        is the <body> element */
+
+  /* Make it a flex container */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+  
+  /* Align the bootstrap's container vertically */
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  
+  /* In legacy web browsers such as Firefox 9
+     we need to specify the width of the flex container */
+  width: 100%;
+  
+  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+     hence the bootstrap's container won't be aligned to the center anymore.
+  
+     Therefore, we should use the following declarations to get it centered again */
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
 }
