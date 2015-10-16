@@ -232,16 +232,36 @@ a:active {
 }
 
 .person {
-	text-align:center;
-	width:275px;
-	display: inline-block;
-	vertical-align: top;
-	margin:50px;
+
 }
 
 .person p {
 	text-align:justify;
 	font-size:0.95em;
+}
+
+.persontext {
+	padding:0 20px 30px 20px;
+}
+
+.persontext  a:link {
+	color:#0000FF;
+	font-weight:bold;
+}
+
+.persontext  a:visited {
+	color:#800080;
+	font-weight:bold;
+}
+
+.persontext  a:hover {
+	color:#0000FF;
+	font-weight:bold;
+}
+
+.persontext  a:active {
+	color:#FF0000;
+	font-weight:bold;
 }
 
 .circle {
@@ -255,7 +275,7 @@ a:active {
 .circleImage {
 	height:200px;
 	width:200px;
-	margin-left:50px;
+	margin-left:25px;
 	border-radius:100px;
 }
 
