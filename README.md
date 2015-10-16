@@ -22,4 +22,4 @@ In keeping with the spirit of Oceanography for Everyone, we've made the source-c
 
 ###Acknowledgements
 
-Code by Andrew Thaler with help from Russell Neches. 
+Code by Andrew Thaler with help from Russell Neches and Dominik Fretz. 
