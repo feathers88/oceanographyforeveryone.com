@@ -180,22 +180,18 @@ a:active {
 	margin-bottom:15px;
 }		
 
-#projects {
+
+.projects {
 	background-color:#C3CED0;		
-	width:100%;
-	float:left;
-	padding-top:50px;
-	padding-bottom:50px;
-	text-align:center;
 }
 
-.project {
+/*.project {
 	width:550px;
 	display: inline-block;
 	vertical-align: top;
 	text-align:left;
 	margin:50px;
-}
+}*/
 
 .project h3 {
 	font-weight:bold;
@@ -228,14 +224,20 @@ a:active {
 }
 
 .projectImage {
-	height:250px;
-	width:250px;
+	/*height:250px;*/
+	width:30%;
 	float:left;
 	margin-right:10px;
 	border-top-left-radius: 100px;
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 100px;
 	border-bottom-left-radius: 0;
+}
+
+@media (min-width:992px) {
+	.projectImage {
+		width: 100%
+	}
 }
 
 #about {
