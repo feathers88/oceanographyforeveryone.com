@@ -101,7 +101,6 @@ a:active {
 .welcome {
 	color:black;	
 	margin:0 auto;
-	padding-bottom:50px;
 }
 
 .welcome h3 {
@@ -277,6 +276,35 @@ a:active {
 	width:200px;
 	margin-left:25px;
 	border-radius:100px;
+}
+
+.helptext {
+	font-size:1.75em;
+
+}
+
+.helpbox {
+	background-color:#C3CED0;
+}
+
+.helptext  a:link {
+	color:#0000FF;
+	font-weight:bold;
+}
+
+.helptext  a:visited {
+	color:#800080;
+	font-weight:bold;
+}
+
+.helptext  a:hover {
+	color:#0000FF;
+	font-weight:bold;
+}
+
+.helptext  a:active {
+	color:#FF0000;
+	font-weight:bold;
 }
 
 #partners {
