@@ -20,6 +20,12 @@ The ocean belongs to everyone. Let’s ensure that we have access to the tools n
 
 In keeping with the spirit of Oceanography for Everyone, we've made the source-code for the community portal open to anyone. If you see a problem, bug, or accessibility issue, please feel free to open an issue or make a pull request.
 
+Note: Though we appreciate any and all input, please abstain from conducting a full site redesign at this time. 
+
+###About the colors
+
+Life Aquatic fans might recognize this color scheme from the Wes Andersen color palette. We've gone with this scheme both as an homage to the film and to make the website feel open, welcoming, and unintimidating. 
+
 ###Acknowledgements
 
 Code by Andrew Thaler with help from Russell Neches and Dominik Fretz. 
