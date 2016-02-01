@@ -29,3 +29,7 @@ Life Aquatic fans might recognize this color scheme from the Wes Andersen color 
 ###Acknowledgements
 
 Code by Andrew Thaler with help from Russell Neches and Dominik Fretz. 
+
+###Code of Conduct
+
+Please review our [Contributor Code of Conduct](https://github.com/OceanographyforEveryone/oceanographyforeveryone.com/blob/master/CODE_OF_CONDUCT.md) prior to your first contribution. 
